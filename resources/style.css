@@ -3,3 +3,29 @@ html, body {
     background-color: black;
     color: greenyellow;
 }
+
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    margin: 0;
+}
+
+
+.navItems {
+    display: flex;
+    list-style-type: none;
+    padding: 2px;
+    align-items: center;
+    margin: 2px;
+    margin-left: auto;
+}
+
+li {
+    padding: 10px;
+}
+

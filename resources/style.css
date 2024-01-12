@@ -27,5 +27,14 @@ nav{
 
 li {
     padding: 10px;
+    color: greenyellow;
+    text-transform: uppercase;
+    
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: 400;
 }
 

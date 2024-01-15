@@ -3,7 +3,10 @@ html, body {
     background-color: black;
     color: greenyellow;
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 nav{
     display: flex;
@@ -11,10 +14,15 @@ nav{
     width: 100%;
 }
 
+ul {
+    border: 3px solid yellowgreen;
+    border-radius: 8px;
+    background-color:navy;
+}
+
 #logo {
     margin: 0;
 }
-
 
 .navItems {
     display: flex;
@@ -38,3 +46,32 @@ a {
     font-weight: 400;
 }
 
+.Me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: row;
+
+}
+#AboutMe img {
+    width: 20%;
+    height: 20%;
+    align-items: right;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid greenyellow;
+}
+
+#AboutMe h2 {
+    text-align: center;
+}
+.Me p {
+    width: 40%;
+    height: 40%;
+}
+
+footer{
+    margin: 0;
+    text-align: center;
+}

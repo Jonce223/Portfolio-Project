@@ -75,3 +75,19 @@ footer{
     margin: 0;
     text-align: center;
 }
+.Projects {
+    align-content: center;
+    justify-items: center;
+}
+details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+}
+details img {
+    width: 40%;
+    height: 40%;
+}

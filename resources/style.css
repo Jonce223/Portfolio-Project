@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     background-color: black;
     color: greenyellow;
+    margin: 0;
 }
 body {
     display: flex;
@@ -52,8 +53,10 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     flex-flow: row;
+    animation: hexcolors 5s infinite alternate;
 
 }
+
 #AboutMe img {
     width: 20%;
     height: 20%;
@@ -61,11 +64,13 @@ a {
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid greenyellow;
+    
 }
 
 #AboutMe h2 {
     text-align: center;
 }
+
 .Me p {
     width: 40%;
     height: 40%;
@@ -75,9 +80,11 @@ footer{
     margin: 0;
     text-align: center;
 }
-.Projects {
-    align-content: center;
-    justify-items: center;
+#Projects {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin: auto;
 }
 details {
     display: flex;
@@ -90,4 +97,40 @@ details {
 details img {
     width: 40%;
     height: 40%;
+}
+details {
+    cursor: pointer;
+}
+
+
+@keyframes hexcolors {
+  0% {
+    color: #fe5e41;
+  }
+  20% {
+    color: #646e68;
+  }
+  40% {
+    color: #d8f1a0;
+  }
+  60% {
+    color: #0075f2;
+  }
+  80% {
+    color: #c7a27c;
+  }
+  100% {
+    color: #a23b72;
+  }
+}
+
+#btn {
+    background-color: red;
+    color: black;
+    border: solid 3px yellowgreen;
+    border-radius: 3px;
+    margin: auto;
+    cursor: pointer;
+    animation: hexcolors 5s infinite alternate;
+
 }

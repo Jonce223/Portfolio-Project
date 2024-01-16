@@ -1,8 +1,8 @@
 html, body {
     height: 100%;
-    background-color: black;
     color: greenyellow;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 body {
     display: flex;
@@ -79,6 +79,7 @@ a {
 footer{
     margin: 0;
     text-align: center;
+    position:relative;
 }
 #Projects {
     align-items: center;
